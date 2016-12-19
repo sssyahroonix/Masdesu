@@ -1,0 +1,22 @@
+<script style='text/javascript'>
+var numposts = 25;
+var standardstyling = true;
+</script>
+<script type='text/javascript'>function showrecentposts(json) {
+for (var i = 0; i &lt; numposts; i++) {
+var entry = json.feed.entry[i];
+var posttitle = entry.title.$t;
+var posturl;
+if (i == json.feed.entry.length) break;
+for (var k = 0; k &lt; entry.link.length; k++) {
+if (entry.link[k].rel == &#39;alternate&#39;) {
+posturl = entry.link[k].href;
+break;
+}}
+posttitle = posttitle.link(posturl);
+if (standardstyling) document.write(&#39;<li>&#39;);
+document.write(posttitle);}
+if (standardstyling) document.write(&#39;</li>&#39;);}</script>
+
+
+<script src='http://www.masdesu.com/feeds/posts/default/-/Review?orderby=published&amp;alt=json-in-script&amp;callback=showrecentposts&amp;max-results=9999'/>
