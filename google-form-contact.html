@@ -1,4 +1,4 @@
-﻿<style type='text/css'>
+<style type='text/css'>
 body{background-color:#ddd;margin:0;padding:0}
 #ss-form input:focus ~ label,#ss-form textarea:focus ~ label,#ss-form input:valid ~ label,#ss-form textarea:valid ~ label{font-size:.75em;color:#e8554e;top:-2.25rem;-webkit-transition:all .125s ease;transition:all .125s ease}
 #ss-form .styled-input{width:33.3333%;margin:2rem 0 1rem;padding:0;position:relative}
@@ -28,6 +28,7 @@ body{background-color:#ddd;margin:0;padding:0}
 <script type='text/javascript'>
 var submitted=false;var fadeEffect=function(){return{init:function(id,flag,target){this.elem=document.getElementById(id);clearInterval(this.elem.si);this.target=target?target:flag?100:0;this.flag=flag||-1;this.alpha=this.elem.style.opacity?parseFloat(this.elem.style.opacity)*100:0;this.elem.si=setInterval(function(){fadeEffect.tween()},20)},tween:function(){if(this.alpha==this.target){clearInterval(this.elem.si)}else{var value=Math.round(this.alpha+((this.target-this.alpha)*.05))+(1*this.flag);this.elem.style.opacity=value/100;this.elem.style.filter='alpha(opacity='+value+')';this.alpha=value}}}}();function myFunction(){location.reload()}
 </script>
+<body>
 <iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted){);}" style="display: none;"></iframe>
             <form action="https://docs.google.com/forms/d/1KpryN5aJv-zidYlRuOXTlTnQR2Smd0vLfK5J9P1p9a0/formResponse" id="ss-form" method="POST" onsubmit="fadeEffect.init('fade', 1);document.getElementById('fade').style.display = 'block'" target="hidden_iframe">
           <div class="styled-input">
@@ -67,3 +68,4 @@ var submitted=false;var fadeEffect=function(){return{init:function(id,flag,targe
 </div>
 </div>
 </div>
+</body>
