@@ -1,2 +1,0 @@
-# Masdesu
-Masdesu template script.
