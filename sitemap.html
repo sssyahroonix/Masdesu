@@ -62,16 +62,6 @@
 <meta content='http://www.masdesu.com/favicon.ico' property='og:image'/>
 <meta content='http://www.masdesu.com/favicon.ico' name='twitter:image'/>
 <meta content='http://www.masdesu.com/favicon.ico' itemprop='image'/>
-
-
-<!-- <style id='page-skin-1' type='text/css'><!--
-#main-wrapper{width:65%;float:left;}
-#sidebar-wrapper{width:35%;float:right;}
-#footer1,#footer2,#footer3{width:28%;float:left;}
-ul,li{list-style:none}
-#error-page{display:none}
-
---></style>
 <style amp-custom='amp-custom'>
 /*<![CDATA[*/
 .material-icons {vertical-align:-15%;font-size:inherit;text-rendering: optimizeLegibility;-moz-osx-font-smoothing: grayscale;}
@@ -629,6 +619,36 @@ p.title{font-size:28px}
 .post-body{padding:0}
 #judul-post,.breadcrumbs,.postmeta{margin:0}
 }
+#table-outer{padding:7px 10px;margin:0 auto}
+#table-outer table{width:auto;margin:0 auto}
+#table-outer form{font:inherit}
+#table-outer label{display:block;text-align:right;margin:0 10px 0 0;padding:4px 0 0}
+#table-outer select[disabled]{opacity:.4}
+#post-searcher{display:block;margin:0;padding:0}
+#table-outer input,#table-outer select{width:100%;border:1px solid #dedede;border-radius:5px;margin:0;padding:5px;font-family: Roboto,sans-serif;font-size:16px;font-weight:500;text-transform:capitalize;outline:0;color:#333;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#table-outer select option{min-height:1.4em;}
+#table-outer input#feed-q{padding:5px 10px;}
+#feed-container{background:#fff;display:block;clear:both;margin:0;padding:0;list-style:none;overflow:hidden;position:relative;border-top:none}
+#feed-container li{list-style:none;margin:0;padding:0;border-top:1px solid #eee;color:#555;width:auto;float:left;display:inline}
+#feed-container li .inner{margin:15px 0;height:auto;overflow:hidden;word-wrap:break-word;text-overflow:ellipsis}
+#feed-container li a{text-decoration:none;color:#2C2C2C;font-weight:500}
+#feed-container li a:hover{text-decoration:none;color:#E94141}
+#feed-container li .news-text{margin-top:5px;line-height:1.3em}
+#feed-container li img{margin:0 15px 5px 0;padding:7px 7px 7px 0;float:left;display:block;}
+#result-desc{margin:0;padding:0;}
+#result-desc div,#result-desc span{display:block;margin:0;padding:5px 0 7px;color:#D64D52}
+#result-desc div{color:inherit}
+#feed-nav{margin:10px 0 30px;text-align:center;font-weight:500}
+#feed-nav a,#feed-nav span{border:1px solid #dedede;border-radius:5px;padding:0;color:#757575;text-decoration:none;display:block;height:30px;line-height:32px}
+#feed-nav a,#feed-nav span:hover{color:#1B1B1B}
+#feed-nav a:active,#feed-nav a:hover{color:#555}
+#feed-nav span{cursor:wait}
+@media screen and (max-width:600px){#table-outer table{margin:0 auto;width:100%}
+#feed-container,#table-outer{margin:0 auto}
+#feed-container li .inner{margin:5px auto;height:auto}
+#feedContainer li{float:none;display:block;width:auto;height:auto}
+#feed-container li .news-text, #feedContainer:after,#feed-container li img{display:none}
+}
 /*]]>*/
 </style>
 <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
@@ -691,7 +711,7 @@ Situs ini membutuhkan JavaScript!. Pesan ini hanya akan terlihat jika Anda menon
 <li><a href='/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
 <li><a href='/p/contact.html' itemprop='url' target='_blank' title='Contact'><span itemprop='name'>Contact</span></a></li>
 <li><a href='/p/privacy-policy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
-<!-- <li><a href='/p/daftar-isi.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li> -->
+<li><a href='cdn.rawgit.com/sssyahroonix/Masdesu/master/sitemap.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li> -->
 <li><a href='/p/disclaimer.html' itemprop='url' title='Disclaimer'><span itemprop='name'>Disclaimer</span></a></li>
 </ul>
 </nav>
@@ -707,7 +727,7 @@ Situs ini membutuhkan JavaScript!. Pesan ini hanya akan terlihat jika Anda menon
 <li><a href='/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
 <li><a href='/p/contact.html' itemprop='url' target='_blank' title='Contact'><span itemprop='name'>Contact</span></a></li>
 <li><a href='/p/privacy-policy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
-<!-- <li><a href='/p/daftar-isi.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li> -->
+<li><a href='cdn.rawgit.com/sssyahroonix/Masdesu/master/sitemap.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li>
 <li><a href='/p/disclaimer.html' itemprop='url' title='Disclaimer'><span itemprop='name'>Disclaimer</span></a></li>
 </ul>
 </div>
@@ -807,7 +827,7 @@ Situs ini membutuhkan JavaScript!. Pesan ini hanya akan terlihat jika Anda menon
 </div>
 <div class='home-post'>
 <h2 class='post-title entry-title' itemprop='headline'>
-<a href='http://www.masdesu.com/' itemprop='url mainEntityOfPage' title='Sitemap'>Sitemap</a>
+<a href='cdn.rawgit.com/sssyahroonix/Masdesu/master/sitemap.html' itemprop='url mainEntityOfPage' title='Sitemap'>Sitemap</a>
 </h2>
 <div class='postmeta'>
 <h3 class='date-header'>
@@ -851,323 +871,6 @@ _h=d.createElement('a');_h.href='#load-more';_h.innerHTML=cfg.navText;_h.onclick
 o.g.appendChild(_h);o.a.disabled=false;o.b.children[0].disabled=false;},e:function(json){var a=json.feed.category,b='<select id="label-sorter"><option value="" selected disabled>Pilih Kategori...</option>';for(var i=0,len=a.length;i<len;i++){b+='<option value="'+ encodeURIComponent(a[i].term)+'">'+ encodeURIComponent(a[i].term)+'</option>';}
 b+='</select>';o.b.innerHTML=b;o.b.children[0].onchange=function(){o.i=-1;o.f.innerHTML="";o.g.innerHTML=cfg.loading;fn.c(0,this.value,o.k);};}};loadToc=fn.d;loadCategories=fn.e;fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&start-index='+(o.i+ 1)+'&max-results='+ cfg.maxResults+'&orderby=published&callback=loadToc');fn.b(cfg.homePage+'/feeds/posts/summary?alt=json-in-script&max-results=0&orderby=published&callback=loadCategories');o.a.onchange=function(){o.i=-1;o.f.innerHTML="";o.g.innerHTML=cfg.counting;o.b.children[0].innerHTML=o.b.children[0].innerHTML;fn.c(0,null,this.value);o.k=this.value;};o.c.onsubmit=function(){o.i=-1;o.f.innerHTML="";o.m=o.d.value;fn.c(1,o.d.value,o.k);return false;};}};_toc.init();
 </script>
-<div class='clear'></div>
-</div>
-</div>
-</article>
-<div class='disqus-comments' id='disqus_comments'>
-<amp-accordion>
-<section>
-<h4>
-<div class='show-more'>Add your comment</div>
-<div class='show-less'>Hide comment</div>
-</h4>
-<div class='disqus-box'><amp-iframe frameborder='0' height='300' layout='responsive' resizable='resizable' sandbox='allow-forms allow-scripts allow-same-origin allow-modals allow-popups' src='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/myinfo-disqus.html?shortname=masdesu&url=http://www.masdesu.com/p/about.html' width='600'>
-<div aria-label='Disqus Comments' overflow='' role='button' tabindex='0'>Disqus Comments</div>
-</amp-iframe></div>
-</section>
-</amp-accordion>
-</div>
-</div>
-
-        </div></div>
-      
-</div>
-</div></div>
-</div>
-</div>
-<!-- spacer for skins that want sidebar and main to be the same height-->
-<div class='clear'></div>
-</div>
-<!-- end content-wrapper -->
-<!-- end outer-wrapper -->
-<footer itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPFooter'>
-<div id='footer-wrapper'>
-<div class='footer section' id='footer1'><div class='widget HTML' data-version='1' id='HTML2'>
-<h2 class='title'>Terhubung</h2>
-<div class='widget-content'>
-<ul>
-<li><a href='https://www.facebook.com/MasdesuOfficial' title='Facebook Fanspage' rel='nofollow' target='_blank'>Facebook</a></li>
-
-<li><a href='https://www.instagram.com/Masdesu513' title='Instagram' rel='nofollow' target='_blank'>Instagram</a></li>
-
-<li><a href='https://www.twitter.com/Masdesu513' title='Twitter' rel='nofollow' target='_blank'>Twitter</a></li>
-</ul>
-</div>
-</div></div>
-<div class='footer section' id='footer2'><div class='widget HTML' data-version='1' id='HTML3'>
-<h2 class='title'>Dukungan</h2>
-<div class='widget-content'>
-</div>
-</div></div>
-<div class='footer section' id='footer3'><div class='widget HTML' data-version='1' id='HTML1'>
-<h2 class='title'>Webtools</h2>
-<div class='widget-content'>
-</div>
-</div></div>
-<div class='clear'></div>
-<div class='creditpic'>
-<div class='credit'>
-<div class='credit-link'>
-Copyright &#169; <span itemprop='copyrightYear'>2016</span>-<span itemprop='copyrightYear'>2017</span>
-<span itemprop='copyrightHolder' itemscope='itemscope' itemtype='https://schema.org/Organization'><a href='http://www.masdesu.com/' itemprop='url' title='Masdesu'><span itemprop='name'>Masdesu</span></a></span> - Proudly powered by <a href='//www.blogger.com' title='Blogger'>Blogger</a>
-</div>
-<div class='clear'></div>
-</div>
-</div>
-</div>
-</footer>
-</div>
-</div>
-
-<!--
-<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1402174469-widgets.js"></script>
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<script type='text/javascript'>
-window['__wavt'] = 'AOuZoY4wH6uJMoRQZE7GSF-jjkt3vhT2ag:1485017568498';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8987382126130896450','//www.masdesu.com/p/about.html','8987382126130896450');
-_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8987382126130896450', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Masdesu', 'pageType': 'static_page', 'pageId': '7605715815133728361', 'url': 'http://www.masdesu.com/p/about.html', 'canonicalUrl': 'http://www.masdesu.com/p/about.html', 'homepageUrl': 'http://www.masdesu.com/', 'searchUrl': 'http://www.masdesu.com/search', 'canonicalHomepageUrl': 'http://www.masdesu.com/', 'blogspotFaviconUrl': 'http://www.masdesu.com/favicon.ico', 'hasCustomDomain': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': 'UA-66119907-2', 'useUniversalAnalytics': false, 'pageName': 'About', 'pageTitle': 'Masdesu: About', 'metaDescription': 'Halaman yang berisi pengenalan Masdesu, pengurusnya dan lainnya.', 'encoding': 'UTF-8', 'locale': 'id', 'localeUnderscoreDelimited': 'id', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Masdesu - Atom\x22 href\x3d\x22http://www.masdesu.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Masdesu - RSS\x22 href\x3d\x22http://www.masdesu.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Masdesu - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/8987382126130896450/posts/default\x22 /\x3e\n', 'meTag': '', 'openIdOpTag': '', 'mobileHeadScript': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/0d81398a922284ce', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Dapatkan tautan', 'key': 'link', 'shareMessage': 'Dapatkan tautan', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Bagikan ke Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Bagikan ke Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Bagikan ke Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Bagikan ke Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27in\x27};\x3c/script\x3e'}}}, {'name': 'features', 'data': {'widgetVisibility': true}}, {'name': 'messages', 'data': {'linkCopiedToClipboard': 'Tautan disalin ke papan klip!', 'postLink': 'Tautan Pos'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Khusus', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'About', 'description': 'Halaman yang berisi pengenalan Masdesu, pengurusnya dan lainnya.', 'url': 'http://www.masdesu.com/p/about.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': true, 'isPost': false, 'isHomepage': false, 'isArchive': false, 'isSearch': false, 'isLabelSearch': false, 'pageId': 7605715815133728361}}]);
-_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', null, document.getElementById('Header1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3031417790-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_FeaturedPostView', new _WidgetInfo('FeaturedPost1', 'sidebar', null, document.getElementById('FeaturedPost1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'sidebar', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', null, document.getElementById('Label1'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML2', 'footer1', null, document.getElementById('HTML2'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'footer2', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
-_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'footer3', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
-</script>
-</body>--> </body>
-</HTML>
-/*]]>*/
-</style>
-<style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
-<script async='async' src='https://cdn.ampproject.org/v0.js'></script>
-<script async='async' custom-element='amp-form' src='https://cdn.ampproject.org/v0/amp-form-0.1.js'></script>
-<script async='async' custom-element='amp-analytics' src='https://cdn.ampproject.org/v0/amp-analytics-0.1.js'></script>
-<script async='async' custom-element='amp-ad' src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'></script>
-<script async='async' custom-element='amp-sidebar' src='https://cdn.ampproject.org/v0/amp-sidebar-0.1.js'></script>
-<script async='async' custom-element='amp-iframe' src='https://cdn.ampproject.org/v0/amp-iframe-0.1.js'></script>
-<script async='async' custom-element='amp-social-share' src='https://cdn.ampproject.org/v0/amp-social-share-0.1.js'></script>
-<script async='async' custom-element='amp-youtube' src='https://cdn.ampproject.org/v0/amp-youtube-0.1.js'></script>
-<script async='async' custom-element='amp-list' src='https://cdn.ampproject.org/v0/amp-list-0.1.js'></script>
-<script async='async' custom-template='amp-mustache' src='https://cdn.ampproject.org/v0/amp-mustache-0.1.js'></script>
-<script async='async' custom-element='amp-carousel' src='https://cdn.ampproject.org/v0/amp-carousel-0.1.js'></script>
-<script async='async' custom-element='amp-accordion' src='https://cdn.ampproject.org/v0/amp-accordion-0.1.js'></script>
-
-
-</head><!--<head><link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/454518911-widget_css_bundle.css' />
-<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8987382126130896450&amp;zx=f4c7e488-9e4c-4a33-94f4-3ccf248c92a4' />
-</head>-->
-<body itemscope='itemscope' itemtype='http://schema.org/WebPage'>
-<amp-analytics id='analytics1' type='googleanalytics'>
-<script type='application/json'>
-{
-  "vars": {
-    "account": "UA-66119907-1"
-  },
-  "triggers": {
-    "trackPageview": {
-      "on": "visible",
-      "request": "pageview"
-    }
-  }
-}
-</script>
-</amp-analytics>
-<noscript>
-<p class='att-javascript' id='unblocker'>
-    This site requires JavaScript!. This message will only be visible if you have it disabled.<br/><br/>
-Situs ini membutuhkan JavaScript!. Pesan ini hanya akan terlihat jika Anda menonaktifkan javascript.
-  </p>
-</noscript>
-<button class='btn-sidebaramp' on='tap:sidebar.toggle'></button>
-<amp-sidebar id='sidebar' layout='nodisplay' side='right'>
-<amp-img alt='close sidebar' class='amp-close-image' height='24' on='tap:sidebar.close' role='button' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABIAAAASABGyWs+AAAACXZwQWcAAAAYAAAAGAB4TKWmAAAAwklEQVRIx+2UQQ6DIBBF//Qc7RX0ENqNF+l1jUcQV3iI30VJgxNAELtp/CvChP8mfyYAl0pEciA587hmkoPvKQpgANwr+1xE5BED8IwkROTre/tV3LmACcATwBqora42ZdMCQ+vcfUvSeveWZOtqnX5UArAkGwXxzRsFLgaEIEnzI4ANZM9cA0q2SCLnfCW692PRM6mKKDRQuwcpAfSRzH1IXwMY+dnzUBTW1cYU4P/+ouUEz42HBrwAmApz4zwu5esNnihJSG5PHfMAAAAASUVORK5CYII=' tabindex='0' width='24'></amp-img>
-<nav>
-<ul>
-<li>
-<div id='search-box'>
-<div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WebSite'>
-<meta content='http://www.masdesu.com/' itemprop='url'/>
-<form action='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/search_results-myinfo.html' itemprop='potentialAction' itemscope='itemscope' itemtype='http://schema.org/SearchAction' method='get' target='_blank'>
-<meta content='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/search_results-myinfo.html?q={q}' itemprop='target'/>
-<input class='search-form' id='feed-q-input' itemprop='query-input' name='q' placeholder='Search' required='required' type='text'/>
-<button class='search-button' title='Search' type='submit'><i class='material-icons'>&#59574;</i></button>
-</form></div>
-</div>
-</li>
-<li><a href='/' title='Home'>Home</a></li>
-<li><a href='/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
-<li><a href='/p/contact.html' itemprop='url' target='_blank' title='Contact'><span itemprop='name'>Contact</span></a></li>
-<li><a href='/p/privacy-policy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
-<!-- <li><a href='/p/daftar-isi.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li> -->
-<li><a href='/p/disclaimer.html' itemprop='url' title='Disclaimer'><span itemprop='name'>Disclaimer</span></a></li>
-</ul>
-</nav>
-</amp-sidebar>
-<div itemprop='mainContentOfPage' itemscope='itemscope' itemtype='https://schema.org/WebPageElement'>
-<div class='fixed' id='judulblog'>
-<div class='content-wrapper'>
-<div class='mobile-menu-nav'>
-<nav itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
-<div class='display' id='cssmenu'>
-<ul>
-<li><a href='/' itemprop='url' title='Home'><span itemprop='name'>Home</span></a></li>
-<li><a href='/p/about.html' itemprop='url' title='About'><span itemprop='name'>About</span></a></li>
-<li><a href='/p/contact.html' itemprop='url' target='_blank' title='Contact'><span itemprop='name'>Contact</span></a></li>
-<li><a href='/p/privacy-policy.html' itemprop='url' title='Privacy'><span itemprop='name'>Privacy</span></a></li>
-<!-- <li><a href='/p/daftar-isi.html' itemprop='url' title='Sitemap'><span itemprop='name'>Sitemap</span></a></li> -->
-<li><a href='/p/disclaimer.html' itemprop='url' title='Disclaimer'><span itemprop='name'>Disclaimer</span></a></li>
-</ul>
-</div>
-</nav>
-<div class='clear'></div>
-<div class='mobilesearch-box'>
-<div id='search-box'>
-<div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/WebSite'>
-<meta content='http://www.myinfo.web.id/' itemprop='url'/>
-<form action='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/search_results-myinfo.html' itemprop='potentialAction' itemscope='itemscope' itemtype='http://schema.org/SearchAction' method='get' target='_blank'>
-<meta content='https://cdn.rawgit.com/KompiAjaib/kompi-html/master/search_results-myinfo.html?q={q}' itemprop='target'/>
-<input class='search-form' id='feed-q-input' itemprop='query-input' name='q' placeholder='Search' required='required' type='text'/>
-<button class='search-button' title='Search' type='submit'><i class='material-icons'>&#59574;</i></button>
-</form></div>
-</div>
-<div itemprop='mainEntity' itemscope='itemscope' itemtype='http://schema.org/Person'>
-<link href='http://www.masdesu.com/' itemprop='url'/>
-<div class='sos-profil' id='sos-profil'>
-<ul>
-<li><a href='https://www.facebook.com/masdesuofficial' itemprop='sameAs' target='_blank' title='Facebook'><svg viewBox='0 0 24 24'>
-<path d='M19,4V7H17A1,1 0 0,0 16,8V10H19V13H16V20H13V13H11V10H13V7.5C13,5.56 14.57,4 16.5,4M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z' fill='#000000'></path>
-</svg></a></li>
-<li><a href='https://twitter.com/masdesu513' itemprop='sameAs' target='_blank' title='Twitter'><svg viewBox='0 0 24 24'>
-<path d='M17.71,9.33C17.64,13.95 14.69,17.11 10.28,17.31C8.46,17.39 7.15,16.81 6,16.08C7.34,16.29 9,15.76 9.9,15C8.58,14.86 7.81,14.19 7.44,13.12C7.82,13.18 8.22,13.16 8.58,13.09C7.39,12.69 6.54,11.95 6.5,10.41C6.83,10.57 7.18,10.71 7.64,10.74C6.75,10.23 6.1,8.38 6.85,7.16C8.17,8.61 9.76,9.79 12.37,9.95C11.71,7.15 15.42,5.63 16.97,7.5C17.63,7.38 18.16,7.14 18.68,6.86C18.47,7.5 18.06,7.97 17.56,8.33C18.1,8.26 18.59,8.13 19,7.92C18.75,8.45 18.19,8.93 17.71,9.33M20,2H4A2,2 0 0,0 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z' fill='#000000'></path>
-</svg></a></li>
-<li><a href='https://www.google.com/+masdesu513' itemprop='sameAs' target='_blank' title='Google+'><svg viewBox='0 0 24 24'>
-<path d='M20,2A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4C2,2.89 2.9,2 4,2H20M20,12H18V10H17V12H15V13H17V15H18V13H20V12M9,11.29V13H11.86C11.71,13.71 11,15.14 9,15.14C7.29,15.14 5.93,13.71 5.93,12C5.93,10.29 7.29,8.86 9,8.86C10,8.86 10.64,9.29 11,9.64L12.36,8.36C11.5,7.5 10.36,7 9,7C6.21,7 4,9.21 4,12C4,14.79 6.21,17 9,17C11.86,17 13.79,15 13.79,12.14C13.79,11.79 13.79,11.57 13.71,11.29H9Z' fill='#000000'></path>
-</svg></a></li>
-<li><a href='https://www.linkedin.com/in/masdesu' itemprop='sameAs' target='_blank' title='LinkedIn'><svg viewBox='0 0 24 24'>
-<path d='M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z' fill='#000000'></path>
-</svg></a></li>
-<li class='youtube'><a href='http://www.youtube.com/c/masdesu513' itemprop='sameAs' target='_blank' title='Youtube'><svg viewBox='0 0 24 24'>
-<path d='M10,16.5V7.5L16,12M20,4.4C19.4,4.2 15.7,4 12,4C8.3,4 4.6,4.19 4,4.38C2.44,4.9 2,8.4 2,12C2,15.59 2.44,19.1 4,19.61C4.6,19.81 8.3,20 12,20C15.7,20 19.4,19.81 20,19.61C21.56,19.1 22,15.59 22,12C22,8.4 21.56,4.91 20,4.4Z' fill='#000000'></path>
-</svg></a></li>
-<li class='instagram'>
-<a href='http://www.instagram.com/Masdesu513' itemprop='sameAs' target='_blank' title='Instagram'>
-<svg viewBox='0 0 24 24'>
-<path d='M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z' fill='#000000'></path>
-</svg></a></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<header itemprop='mainEntity' itemscope='itemscope' itemtype='https://schema.org/WPHeader'>
-<div id='header-wrapper'>
-<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
-<div id='header-inner'>
-<div class='titlewrapper'>
-<h1 class='title' itemprop='headline'>
-<a href='http://www.masdesu.com/' itemprop='url' title='Masdesu'><span itemprop='name'>Masdesu</span></a>
-</h1>
-</div>
-<div class='descriptionwrapper'>
-<p class='description' itemprop='description'><span>
-</span></p>
-</div>
-</div>
-</div></div>
-<div class='clear'></div>
-</div>
-</header><!-- end header-wrapper -->
-</div>
-<div class='clear'></div>
-</div>
-<div class='content-wrapper'>
-<div class='underheader'>
-</div>
-<div class='clear'></div>
-<div id='outer-wrapper'>
-<div itemscope='itemscope' itemtype='http://schema.org/Blog'>
-<div id='main-wrapper'>
-<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
-<div class='clear'></div>
-<div class='clear'></div>
-<div class='blog-posts hfeed'>
-
-          <div class="date-outer">
-        
-
-          <div class="date-posts">
-        
-<div class='post-outer'>
-<article class='post hentry' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
-<div itemprop='image' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-<meta content='https://3.bp.blogspot.com/-x_mMtgFf6XE/VlhLxwdLekI/AAAAAAAAj3c/N7fRz1lbMSg/s1600/no-thumbnail.jpg' itemprop='url'/>
-<meta content='700' itemprop='width'/>
-<meta content='700' itemprop='height'/>
-</div>
-<div itemprop='publisher' itemscope='itemscope' itemtype='https://schema.org/Organization'>
-<div itemprop='logo' itemscope='itemscope' itemtype='https://schema.org/ImageObject'>
-<meta content='http://3.bp.blogspot.com/-x4Y9KY2MsYI/VmuWxGJRjqI/AAAAAAAAkJk/oHKu7BlBZKc/s600/logo-myinfo.png' itemprop='url'/>
-<meta content='600' itemprop='width'/>
-<meta content='600' itemprop='height'/>
-</div>
-<meta content='Masdesu' itemprop='name'/>
-</div>
-<div class='home-post'>
-<h2 class='post-title entry-title' itemprop='headline'>
-<a href='http://www.masdesu.com/p/about.html' itemprop='url mainEntityOfPage' title='About'>About</a>
-</h2>
-<div class='postmeta'>
-<h3 class='date-header'>
-<span class='post-author vcard' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
-<i class='material-icons'>&#59473;</i>
-<span class='fn author'>
-<a href='https://plus.google.com/112830286932423156237' itemprop='url' rel='author' target='_blank' title='author profile'>
-<span itemprop='name'>Akhmad Syahroni</span>
-</a>
-</span>
-</span>
-<span class='clock' itemprop='dateModified'>
-<i class='material-icons'>&#58900;</i>
-<a class='updated' href='http://www.masdesu.com/p/about.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2016-12-30T03:31:00+07:00'>
-12/30/2016</abbr></a></span></h3>
-</div>
-<div class='post-header'>
-<div class='post-header-line-1'></div>
-</div>
-<div class='post-body entry-content' id='post-body-7605715815133728361' itemprop='articleBody'>
-<div class="align-center"><amp-img alt="Masdesu.com Official" height="88" src="https://1.bp.blogspot.com/-6dov5TOdnds/V0coSPyCQkI/AAAAAAAAAgA/POx5L83dgNc5X6xYAG1-ED6axpi49G_rQCLcB/s400/Masdesu%2BBanner.png" title="Masdesu.com Official" width="400"></amp-img></div><div class="align-justify"><b>Masdesu.com</b> didirikan pada tanggal 13 Mei 2016. Masdesu merupakan blog ber-<i>platform </i>Blogger yang berisi beragam konten informatif, edukatif, inspiratif dan menghibur yang sesuai dengan tujuan utama dari blog ini.<br />
-<br />
-<h3 class="align-center">TAGLINE</h3><div class="align-center"><b>&#8220;Belajar hal baru setiap hari&#8221;</b><br />
-<br />
-</div><h3 class="align-center">VISI</h3><div class="align-center">Menjadi blog yang <b>kredibel</b>, <b>independen</b>, <b>edukatif</b>, <b>inspiratif</b>, <b>menghibur </b>dan mampu memberi <b>informasi yang bermanfaat</b> untuk semua orang.</div><br />
-<h3 class="align-center">MISI</h3><ol><li>Menyajikan informasi yang berdasar pada fakta dari <b>sumber yang terpercaya</b> dan <b>melalui tahap pengkajian</b>.</li>
-<li>Menyajikan konten-konten edukasi yang dapat <b>membantu pelajar/ akademisi</b> dalam memperoleh ilmu.</li>
-<li>Menyajikan konten-konten inspiratif yang mampu<b> memotivasi pembaca</b> untuk <b>menjadi pribadi yang lebih baik</b>.</li>
-<li>Menyajikan konten-konten informatif yang mampu <b>menolong orang</b> untuk <b>memahami dan mengikuti</b> informasi terbaru.</li>
-<li>Menyajikan konten-konten yang <b>dibutuhkan pembaca</b>.</li>
-</ol><br />
-<h3 class="align-center">CATEGORIES</h3><ul><li><b>EDUKASI</b><br />
-Artikel yang berisi bahan pelajaran atau hal-hal yang berkaitan dengan akademis mulai dari SD hingga Peguruan Tinggi.</li>
-<li><b>ENTERTAINMENT</b><br />
-Artikel yang berisi konten yang bersifat menghibur pembaca dan yang berkaitan dengan dunia hiburan yang memberi pengaruh positif terhadap pembaca.</li>
-<li><b>FEATURED</b><br />
-Artikel yang berisi pemberitahuan mengenai hal-hal yang berkaitan dengan pembaharuan Masdesu.</li>
-<li><b>INFORMASI</b><br />
-Artikel yang berisi konten yang berguna untuk menambah wawasan pembaca tentang suatu hal.</li>
-<li><b>INTERMEZZO</b><br />
-Artikel yang bersifat santai, personal yang dibuat tanpa perlu ada kajian terlebih dahulu namun tetap memiliki pengaruh positif untuk pembaca.</li>
-<li><b>OPINI</b><br />
-Artikel yang berisi pandangan penulis terhadap suatu fenomena atau sesuatu yang sedang hangat di bicarakan berdasarkan fakta.</li>
-<li><b>REVIEW</b><br />
-Artikel yang berisi ulasan penulis tentang suatu hal yang baru dilihat, digunakan, dirasakan atau didengarkan.</li>
-<li><b>TIPS</b><br />
-Artikel yang berisi tata cara tentang bagaimana melakukan sesuatu dengan lebih baik, lebih praktis dan efisien.</li>
-<li><b>TUTORIAL</b><br />
-Artikel yang berisi tata cara melakukan sesuatu dengan benar.</li>
-</ul><br />
-<blockquote class="align-center">Karena saya ingin blog ini bermanfaat bukan hanya untuk orang Indonesia saja, maka saya juga akan menyediakan artikel-artikel berbahasa Inggris di <i>blog</i>&nbsp;ini. Ini juga sekalian mengasah kemampuan berbahasa Inggris saya. Jadi harap dimaklum. Terima kasih.</blockquote></div>
 <div class='clear'></div>
 </div>
 </div>
