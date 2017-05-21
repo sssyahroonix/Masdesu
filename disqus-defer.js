@@ -1,4 +1,4 @@
-﻿var disqus_shortname="masdesu";
+﻿var disqus_shortname="masdesu101";
 var disqus_url = disqus_blogger_current_url;
 
 (function () {
